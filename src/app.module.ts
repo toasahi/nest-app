@@ -10,7 +10,7 @@ import { RecipesModule } from './recipes/recipes.module';
   imports: [
     GraphQLModule.forRoot({
       playground: true,
-      autoSchemaFile: 'schema.graphql'
+      autoSchemaFile: 'schema.graphql',
     }),
     RecipesModule,
   ],
