@@ -28,6 +28,7 @@ import { BooksModule } from './books/books.module';
       playground: true,
       autoSchemaFile: 'schema.graphql',
     }),
+    
     BooksModule,
   ],
   controllers: [AppController],
